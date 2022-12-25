@@ -1,0 +1,20 @@
+#user-profile {
+    border: 2px solid #ffe600;
+    border-radius: 5px;
+    padding: 30px; /* Change the value of this property */
+    background-color: #292a2d;
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-gap: 20px;
+}
+
+#user-profile img {
+    max-width: 250px; /* Change the value of this property */
+    margin: 0;
+    padding: 0;
+}
+
+.profile-info {
+    font-size: 16px;
+    margin-bottom: 20px /* Change the value of this property */
+}
