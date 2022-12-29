@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 
-	"github.com/mrsih/dotenv"
-	"github.com/mrsih/real-time-forum/internal/app"
+	"github.com/OliverPohlak/dotenv"
+	"github.com/OliverPohlak/real-time-forum/internal/app"
 )
 
 func main() {

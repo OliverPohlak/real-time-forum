@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"text/template"
 
-	"github.com/mrsih/real-time-forum/internal/config"
+	"github.com/OliverPohlak/real-time-forum/internal/config"
 )
 
 func main() {
