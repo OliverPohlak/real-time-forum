@@ -1,8 +1,8 @@
 package ws
 
 import (
-	"github.com/mrsih/real-time-forum/internal/model"
-	"github.com/mrsih/validator"
+	"github.com/OliverPohlak/real-time-forum/internal/model"
+	"github.com/OliverPohlak/validator"
 )
 
 func (h *Handler) getChats(conn *conn) error {

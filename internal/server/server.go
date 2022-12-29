@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/mrsih/gorouter"
-	"github.com/mrsih/real-time-forum/internal/config"
+	"github.com/OliverPohlak/gorouter"
+	"github.com/OliverPohlak/real-time-forum/internal/config"
 )
 
 type Server struct {

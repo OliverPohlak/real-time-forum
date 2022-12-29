@@ -3,8 +3,8 @@ package http
 import (
 	"net/http"
 
-	"github.com/mrsih/gorouter"
-	"github.com/mrsih/real-time-forum/internal/service"
+	"github.com/OliverPohlak/gorouter"
+	"github.com/OliverPohlak/real-time-forum/internal/service"
 )
 
 // @Summary Get list of all categories

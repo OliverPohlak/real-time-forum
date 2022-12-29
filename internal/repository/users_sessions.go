@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/mrsih/real-time-forum/internal/model"
+	"github.com/OliverPohlak/real-time-forum/internal/model"
 )
 
 func (r *UsersRepo) SetSession(session model.Session) error {

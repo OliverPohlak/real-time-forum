@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/mrsih/real-time-forum/internal/model"
-	"github.com/mrsih/real-time-forum/internal/repository"
+	"github.com/OliverPohlak/real-time-forum/internal/model"
+	"github.com/OliverPohlak/real-time-forum/internal/repository"
 )
 
 type NotificationsService struct {

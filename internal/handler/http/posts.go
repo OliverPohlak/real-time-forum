@@ -3,11 +3,11 @@ package http
 import (
 	"net/http"
 
-	"github.com/mrsih/gorouter"
-	_ "github.com/mrsih/real-time-forum/internal/model"
-	"github.com/mrsih/real-time-forum/internal/service"
-	"github.com/mrsih/real-time-forum/pkg/image"
-	"github.com/mrsih/validator"
+	"github.com/OliverPohlak/gorouter"
+	_ "github.com/OliverPohlak/real-time-forum/internal/model"
+	"github.com/OliverPohlak/real-time-forum/internal/service"
+	"github.com/OliverPohlak/real-time-forum/pkg/image"
+	"github.com/OliverPohlak/validator"
 )
 
 // @Summary Get post by ID

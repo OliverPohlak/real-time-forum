@@ -1,6 +1,6 @@
 package service
 
-import "github.com/mrsih/real-time-forum/internal/repository"
+import "github.com/OliverPohlak/real-time-forum/internal/repository"
 
 type ModeratorsService struct {
 	repo repository.Moderators

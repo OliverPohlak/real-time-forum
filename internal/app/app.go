@@ -4,16 +4,16 @@ import (
 	"log"
 	"os"
 
-	"github.com/mrsih/real-time-forum/internal/config"
-	"github.com/mrsih/real-time-forum/internal/handler/http"
-	"github.com/mrsih/real-time-forum/internal/handler/ws"
-	"github.com/mrsih/real-time-forum/internal/model"
-	"github.com/mrsih/real-time-forum/internal/repository"
-	"github.com/mrsih/real-time-forum/internal/server"
-	"github.com/mrsih/real-time-forum/internal/service"
-	"github.com/mrsih/real-time-forum/pkg/auth"
-	"github.com/mrsih/real-time-forum/pkg/database"
-	"github.com/mrsih/real-time-forum/pkg/hash"
+	"github.com/OliverPohlak/real-time-forum/internal/config"
+	"github.com/OliverPohlak/real-time-forum/internal/handler/http"
+	"github.com/OliverPohlak/real-time-forum/internal/handler/ws"
+	"github.com/OliverPohlak/real-time-forum/internal/model"
+	"github.com/OliverPohlak/real-time-forum/internal/repository"
+	"github.com/OliverPohlak/real-time-forum/internal/server"
+	"github.com/OliverPohlak/real-time-forum/internal/service"
+	"github.com/OliverPohlak/real-time-forum/pkg/auth"
+	"github.com/OliverPohlak/real-time-forum/pkg/database"
+	"github.com/OliverPohlak/real-time-forum/pkg/hash"
 )
 
 // @title real-time-forum API

@@ -3,10 +3,10 @@ package http
 import (
 	"net/http"
 
-	"github.com/mrsih/gorouter"
-	_ "github.com/mrsih/real-time-forum/internal/model"
-	"github.com/mrsih/real-time-forum/internal/service"
-	"github.com/mrsih/validator"
+	"github.com/OliverPohlak/gorouter"
+	_ "github.com/OliverPohlak/real-time-forum/internal/model"
+	"github.com/OliverPohlak/real-time-forum/internal/service"
+	"github.com/OliverPohlak/validator"
 )
 
 type usersSignUpInput struct {

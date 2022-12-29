@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/mrsih/real-time-forum/internal/model"
+	"github.com/OliverPohlak/real-time-forum/internal/model"
 )
 
 type client struct {

@@ -4,12 +4,12 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/mrsih/gorouter"
-	_ "github.com/mrsih/real-time-forum/docs"
-	"github.com/mrsih/real-time-forum/internal/handler/ws"
-	"github.com/mrsih/real-time-forum/internal/model"
-	"github.com/mrsih/real-time-forum/internal/service"
-	"github.com/mrsih/real-time-forum/pkg/auth"
+	"github.com/OliverPohlak/gorouter"
+	_ "github.com/OliverPohlak/real-time-forum/docs"
+	"github.com/OliverPohlak/real-time-forum/internal/handler/ws"
+	"github.com/OliverPohlak/real-time-forum/internal/model"
+	"github.com/OliverPohlak/real-time-forum/internal/service"
+	"github.com/OliverPohlak/real-time-forum/pkg/auth"
 	httpSwagger "github.com/swaggo/http-swagger"
 )
 

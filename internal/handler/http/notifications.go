@@ -3,7 +3,7 @@ package http
 import (
 	"net/http"
 
-	"github.com/mrsih/gorouter"
+	"github.com/OliverPohlak/gorouter"
 )
 
 func (h *Handler) getNotifications(ctx *gorouter.Context) {

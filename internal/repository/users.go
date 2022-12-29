@@ -3,7 +3,7 @@ package repository
 import (
 	"database/sql"
 
-	"github.com/mrsih/real-time-forum/internal/model"
+	"github.com/OliverPohlak/real-time-forum/internal/model"
 )
 
 type UsersRepo struct {

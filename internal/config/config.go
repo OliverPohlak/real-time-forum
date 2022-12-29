@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/mrsih/validator"
+	"github.com/OliverPohlak/validator"
 )
 
 type (

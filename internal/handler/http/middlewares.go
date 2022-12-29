@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mrsih/gorouter"
-	"github.com/mrsih/real-time-forum/internal/model"
-	"github.com/mrsih/real-time-forum/pkg/auth"
+	"github.com/OliverPohlak/gorouter"
+	"github.com/OliverPohlak/real-time-forum/internal/model"
+	"github.com/OliverPohlak/real-time-forum/pkg/auth"
 )
 
 func (h *Handler) cors(next gorouter.Handler) gorouter.Handler {

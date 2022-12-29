@@ -1,1 +1,1 @@
-INSERT INTO categories (name) VALUES ("All"), ("Music"), ("Games"), ("Movies"), ("Series"), ("Books"), ("IT, Programming"), ("Other");
+INSERT INTO categories (name) VALUES ("All"), ("DnB"), ("Games"), ("Movies"), ("Shows"), ("Megan Fox"), ("I LOVE CODE"), ("Other");

@@ -1,6 +1,6 @@
 basePath: /api
 definitions:
-  github.com_msih_real-time-forum_internal_handler_http.RequestForModeratorActionInput:
+  github.com_OliverPohlak_real-time-forum_internal_handler_http.RequestForModeratorActionInput:
     properties:
       action:
         example: accept
@@ -8,14 +8,14 @@ definitions:
       message:
         type: string
     type: object
-  github.com_msih_real-time-forum_internal_handler_http.createCommentInput:
+  github.com_OliverPohlak_real-time-forum_internal_handler_http.createCommentInput:
     properties:
       data:
         type: string
       image:
         type: string
     type: object
-  github.com_msih_real-time-forum_internal_handler_http.createPostInput:
+  github.com_OliverPohlak_real-time-forum_internal_handler_http.createPostInput:
     properties:
       categories:
         example:
@@ -31,39 +31,39 @@ definitions:
       title:
         type: string
     type: object
-  github.com_msih_real-time-forum_internal_handler_http.createPostResponse:
+  github.com_OliverPohlak_real-time-forum_internal_handler_http.createPostResponse:
     properties:
       postID:
         example: 1
         type: integer
     type: object
-  github.com_msih_real-time-forum_internal_handler_http.likeCommentInput:
+  github.com_OliverPohlak_real-time-forum_internal_handler_http.likeCommentInput:
     properties:
       likeType:
         example: 1
         type: integer
     type: object
-  github.com_msih_real-time-forum_internal_handler_http.likePostInput:
+  github.com_OliverPohlak_real-time-forum_internal_handler_http.likePostInput:
     properties:
       likeType:
         example: 1
         type: integer
     type: object
-  github.com_msih_real-time-forum_internal_handler_http.tokenResponse:
+  github.com_OliverPohlak_real-time-forum_internal_handler_http.tokenResponse:
     properties:
       accessToken:
         type: string
       refreshToken:
         type: string
     type: object
-  github.com_msih_real-time-forum_internal_handler_http.usersRefreshTokensInput:
+  github.com_OliverPohlak_real-time-forum_internal_handler_http.usersRefreshTokensInput:
     properties:
       accessToken:
         type: string
       refreshToken:
         type: string
     type: object
-  github.com_msih_real-time-forum_internal_handler_http.usersSignInInput:
+  github.com_OliverPohlak_real-time-forum_internal_handler_http.usersSignInInput:
     properties:
       password:
         example: Password123@
@@ -72,7 +72,7 @@ definitions:
         example: johndoe
         type: string
     type: object
-  github.com_msih_real-time-forum_internal_handler_http.usersSignUpInput:
+  github.com_OliverPohlak_real-time-forum_internal_handler_http.usersSignUpInput:
     properties:
       age:
         example: 18

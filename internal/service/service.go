@@ -3,10 +3,10 @@ package service
 import (
 	"time"
 
-	"github.com/mrsih/real-time-forum/internal/model"
-	"github.com/mrsih/real-time-forum/internal/repository"
-	"github.com/mrsih/real-time-forum/pkg/auth"
-	"github.com/mrsih/real-time-forum/pkg/hash"
+	"github.com/OliverPohlak/real-time-forum/internal/model"
+	"github.com/OliverPohlak/real-time-forum/internal/repository"
+	"github.com/OliverPohlak/real-time-forum/pkg/auth"
+	"github.com/OliverPohlak/real-time-forum/pkg/hash"
 )
 
 type Users interface {

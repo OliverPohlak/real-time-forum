@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	sjwt "github.com/mrsih/simple-jwt"
+	sjwt "github.com/OliverPohlak/simple-jwt"
 	uuid "github.com/satori/go.uuid"
 )
 
